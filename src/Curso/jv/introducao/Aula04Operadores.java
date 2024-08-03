@@ -2,7 +2,7 @@ package Curso.jv.introducao;
 
 public class Aula04Operadores {
     public static void main(String []args){
-        // - + / *
+        // - + / * Operaradores aritmeticos
         int numero1 = 10;
         int numero2 = 20;
         double resultado = (double) numero1 / (double) numero2;
@@ -13,12 +13,17 @@ public class Aula04Operadores {
         int resto  = 21%7;
         System.out.println(resto);
 
-        // < > <= >= == !=
+        // < > <= >= == != Operadores relacionais
         boolean isDezmaiorQueVinte = 10>20;
         boolean isDezmenorQueVinte = 10<20;
         System.out.println(isDezmaiorQueVinte);
         System.out.println(isDezmenorQueVinte);
 
+        //&& (AND) ||(OR) !(NOT) Operadores Logicos
+        int age = 24;
+        float payment = 2000;
+        boolean inDentrodalei = age > 30 && payment > 4612;
+        System.out.println(inDentrodalei);
 
     }
 }
