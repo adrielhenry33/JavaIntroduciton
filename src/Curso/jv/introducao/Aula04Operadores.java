@@ -22,8 +22,11 @@ public class Aula04Operadores {
         //&& (AND) ||(OR) !(NOT) Operadores Logicos
         int age = 24;
         float payment = 2000;
-        boolean inDentrodalei = age > 30 && payment > 4612;
-        System.out.println(inDentrodalei);
+        boolean isDentrodalei = age > 30 && payment > 4612;
+        System.out.println(isDentrodalei);
+
+        //  = += -= *= /= %= Operadores de atribuicao
+        double bonus = 1800;
 
     }
 }
