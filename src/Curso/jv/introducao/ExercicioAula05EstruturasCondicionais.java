@@ -13,8 +13,7 @@ public class ExercicioAula05EstruturasCondicionais {
         } else if (salario >34712 && salario <=68507){
             imposto *= 37.35;
             imposto /= 100;
-        }
-        else {
+        } else {
             imposto *=49.5;
             imposto/=100;
         }
