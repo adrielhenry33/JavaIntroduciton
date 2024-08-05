@@ -8,7 +8,7 @@ public class Aula07Arrays02 {
         nomes[1] = "Henry";
         nomes[2] = "Dias";
         nomes[3] = "Barbosa";
-        for (int i = 0; i <= 3; i++)
+        for (int i = 0; i < nomes.length; i++)
             System.out.println(nomes[i]);
 
     }
