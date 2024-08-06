@@ -15,6 +15,10 @@ public class CarroTeste {
         segundoCarro.modelo = "Uracan";
         segundoCarro.ano = 2019;
 
+        //primeiroCarro = segundoCarro;
+
+
+
         System.out.println("Nome do carro: " + primeiroCarro.nome);
         System.out.println("Modelo do carro: " + primeiroCarro.modelo);
         System.out.println("Ano do caro: " + primeiroCarro.ano);

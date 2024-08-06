@@ -1,6 +1,6 @@
 package Curso.jv.javacore.IntroducaoClasses.teste;
 
-import Curso.jv.javacore.IntroducaoClasses.dominio.Account;
+import Curso.jv.javacore.IntroducaoMetodos.Dominio.Account;
 
 import java.util.Scanner;
 
@@ -10,8 +10,9 @@ public class AccountTest {
 
         Account account = new Account();
 
-        System.out.println("Plase enter the name of accoutn: ");
-        account.setName(input.nextLine());
+        System.out.println("Plase enter the name of account: ");
+        String confereString = input.nextLine();
+        account.setName(confereString);
 
         System.out.printf("The name of your account is : %s\n", account.getName());
     }

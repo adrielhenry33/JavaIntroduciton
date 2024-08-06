@@ -1,4 +1,4 @@
-package Curso.jv.javacore.IntroducaoClasses.dominio;
+package Curso.jv.javacore.IntroducaoMetodos.Dominio;
 
 public class Account {
     private String name;
