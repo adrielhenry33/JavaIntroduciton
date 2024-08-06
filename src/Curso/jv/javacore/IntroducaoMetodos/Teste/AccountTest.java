@@ -1,4 +1,4 @@
-package Curso.jv.javacore.IntroducaoClasses.teste;
+package Curso.jv.javacore.IntroducaoMetodos.Teste;
 
 import Curso.jv.javacore.IntroducaoMetodos.Dominio.Account;
 
