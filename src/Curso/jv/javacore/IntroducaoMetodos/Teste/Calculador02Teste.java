@@ -7,6 +7,7 @@ public class Calculador02Teste {
         Calculadora calc02 = new Calculadora();
 
         calc02.produtoDoisNumeros(20, 20);
+        System.out.println(calc02.divideDoisNumeros(20,0));
 
     }
 }

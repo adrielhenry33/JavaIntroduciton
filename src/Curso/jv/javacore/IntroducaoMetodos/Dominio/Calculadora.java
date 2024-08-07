@@ -1,6 +1,10 @@
 package Curso.jv.javacore.IntroducaoMetodos.Dominio;
 
 public class Calculadora {
+
+    public  int numero1;
+    public  int numero2;
+
     public void somaDoisNumeros(){
         System.out.println(10+10);
     }
@@ -14,6 +18,14 @@ public class Calculadora {
     }
 
     public double divideDoisNumeros (double num1, double num2){
-        return num1 / num2;
+        if (num2 != 0){
+            return num1 / num2;
+        }
+        return 0;
+    }
+
+    public void aleraDoisNumeros (int num1, int num2){
+        num1 = 99;
+        num2 = 100;
     }
 }
