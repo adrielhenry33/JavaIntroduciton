@@ -2,7 +2,7 @@ package Curso.jv.javacore.IntroducaoMetodos.Teste;
 
 import Curso.jv.javacore.IntroducaoMetodos.Dominio.Calculadora;
 
-public class Calculador02Teste {
+public class CalculadoraTeste02 {
     public static void main(String[] args) {
         Calculadora calc02 = new Calculadora();
 
