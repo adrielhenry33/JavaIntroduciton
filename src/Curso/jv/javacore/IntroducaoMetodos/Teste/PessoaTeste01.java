@@ -7,8 +7,10 @@ public class PessoaTeste01 {
         Pessoa pessoa = new Pessoa();
 
         pessoa.setNome("Adriel Henry Dias Barbosa");
-        pessoa.setIdade(24);
-        pessoa.imprimeDados();
+        pessoa.setIdade(0);
+
+        System.out.println(pessoa.getNome());
+        System.out.println(pessoa.getIdade());
 
     }
 }

@@ -17,6 +17,7 @@ public class Funcionario {
     public int idade;
     public double [] salario;
 
+
     public void imprimeDados(){
         System.out.println("Dados do funcionario");
         System.out.println(this.nome);

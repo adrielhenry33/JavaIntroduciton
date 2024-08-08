@@ -1,6 +1,5 @@
 package Curso.jv.javacore.IntroducaoMetodos.Dominio;
 
-import jdk.internal.org.jline.utils.OSUtils;
 
 public class Pessoa {
     private String nome;
@@ -22,17 +21,7 @@ public class Pessoa {
         this.idade = idade;
     }
 
-    public String getNome(){
-        if (this.nome == null){
-            return "Nome invalido";
-        }
-        return this.nome;
-    }
-    public int getIdade(){
-        if (this.idade <=0){
-            System.out.println("Idade invalida");
-            return 0;
-        }
-        return this.idade;
-    }
+    public String getNome(){ return this.nome; }
+
+    public int getIdade() { return this.idade; }
 }
