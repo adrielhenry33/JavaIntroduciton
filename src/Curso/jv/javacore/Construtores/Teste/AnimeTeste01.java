@@ -4,7 +4,7 @@ import Curso.jv.javacore.Construtores.Dominio.Anime;
 
 public class AnimeTeste01 {
     public static void main(String[] args) {
-        Anime anime = new Anime("Haikyuu", "Tv", "Shonnen", 12);
+        Anime anime = new Anime("Haikyuu", "Tv", "Shonnen", 12, "Mapa");
 
         anime.imprime();
     }
