@@ -5,7 +5,7 @@ public class FuncionarioPrivate {
     private String nome;
     private int idade;
     private double [] salarios;
-    private double media = 0;
+    private double media;
 
     public void setNome(String nome){
         if (nome  == null){
