@@ -18,5 +18,6 @@ public class EscolaTeste01 {
         Escola escola1 = new Escola("konoha", new Professor[]{professor4,professor5,professor6});
         escola.imprime();
         escola1.imprime();
+
     }
 }
