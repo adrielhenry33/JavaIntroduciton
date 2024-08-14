@@ -21,6 +21,6 @@ public class PedidoTeste01 {
         Pedido pedido = new Pedido("2466", itens);
         pedido.imprime();
         pedido.calculaPrco();
-        pedido.setItems();
+
     }
 }
